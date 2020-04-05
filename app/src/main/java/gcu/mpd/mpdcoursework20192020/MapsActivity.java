@@ -207,7 +207,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 );
             }
         } else {
-            Toast.makeText(MapsActivity.this, "There are currently no incidents to show", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MapsActivity.this, "There are currently no current incidents to show", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -229,6 +229,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     );
                 }
             }
+        } else {
+            Toast.makeText(MapsActivity.this, "There are currently no planned roadworks to show", Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -248,6 +250,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         )
                 );
             }
+        } else {
+            Toast.makeText(MapsActivity.this, "There are currently no roadworks to show", Toast.LENGTH_SHORT).show();
         }
     }
 

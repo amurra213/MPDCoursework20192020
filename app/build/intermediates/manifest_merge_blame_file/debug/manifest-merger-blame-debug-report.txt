@@ -51,72 +51,73 @@
 32-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:17:9-54
 33        android:supportsRtl="true"
 33-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:18:9-35
-34        android:theme="@style/AppTheme" >
-34-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:19:9-40
-35
-36        <!--
-37             The API key for Google Maps-based APIs is defined as a string resource.
-38             (See the file "res/values/google_maps_api.xml").
-39             Note that the API key is linked to the encryption key used to sign the APK.
-40             You need a different API key for each encryption key, including the release key that is used to
-41             sign the APK for publishing.
-42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-43        -->
-44        <meta-data
-44-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:29:9-31:55
-45            android:name="com.google.android.geo.API_KEY"
-45-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:30:13-58
-46            android:value="@string/google_maps_key" />
-46-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:31:13-52
-47
-48        <activity
-48-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:33:9-41:20
-49            android:name="gcu.mpd.mpdcoursework20192020.MapsActivity"
-49-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:34:13-41
-50            android:label="@string/title_activity_maps" >
-50-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:35:13-56
-51            <intent-filter>
-51-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:36:13-40:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:37:17-69
-52-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:37:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:39:17-77
-54-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:39:27-74
-55            </intent-filter>
-56        </activity>
-57        <!-- Autocomplete -->
-58        <activity
-58-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
-59            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-59-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
-60            android:exported="false"
-60-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
-61            android:hardwareAccelerated="true"
-61-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
-62            android:label="@string/places_autocomplete_label"
-62-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
-63            android:theme="@style/PlacesAutocompleteThemeOverlay"
-63-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
-64            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-64-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
-65        </activity>
-66        <activity
-66-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:23:9-26:75
-67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-67-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:24:13-79
-68            android:exported="false"
-68-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:25:13-37
-69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:26:13-72
-70
-71        <meta-data
-71-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
-72            android:name="com.google.android.gms.version"
-72-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
-73            android:value="@integer/google_play_services_version" />
-73-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
-74    </application>
-75
-76</manifest>
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:19:9-40
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:29:9-31:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:30:13-58
+47            android:value="@string/google_maps_key" />
+47-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:31:13-52
+48
+49        <activity
+49-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:33:9-41:20
+50            android:name="gcu.mpd.mpdcoursework20192020.MapsActivity"
+50-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:34:13-41
+51            android:label="@string/title_activity_maps" >
+51-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:35:13-56
+52            <intent-filter>
+52-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:36:13-40:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:37:17-69
+53-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:37:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:39:17-77
+55-->C:\Users\Andre\StudioProjects\MPDCoursework20192020\app\src\main\AndroidManifest.xml:39:27-74
+56            </intent-filter>
+57        </activity>
+58        <!-- Autocomplete -->
+59        <activity
+59-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
+60            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+60-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
+61            android:exported="false"
+61-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
+62            android:hardwareAccelerated="true"
+62-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
+63            android:label="@string/places_autocomplete_label"
+63-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
+64            android:theme="@style/PlacesAutocompleteThemeOverlay"
+64-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
+65            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+65-->[com.google.android.libraries.places:places:1.0.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\8d49e5b947d5c872e30a8b6c7f04a8f0\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
+66        </activity>
+67        <activity
+67-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\913cf3d7404e10667335deb1d3bef133\jetified-play-services-base-16.1.0\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\Andre\.gradle\caches\transforms-2\files-2.1\2072ca6c8ade60181345c8f13f0b3c3d\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
